@@ -1,0 +1,10 @@
+body {
+    background-image: url('august-phlieger-CREqtqgBFcU-unsplash (2).jpg');
+    background-repeat: no-repeat;
+    background-size: 600px;
+    padding: 0px 50px;
+}
+
+.photo-title {
+    color: aliceblue;
+}
