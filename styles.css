@@ -1,10 +1,32 @@
+html {
+    height: 100%;
+}
+
 body {
+    height: 100%;
+    background-color: aqua;
+    margin: 0px;
+    
+}
+
+.photo {
+    position: relative;
+    height: 100%;
     background-image: url('august-phlieger-CREqtqgBFcU-unsplash (2).jpg');
     background-repeat: no-repeat;
     background-size: 600px;
-    padding: 0px 50px;
+    color: aliceblue;
+    margin: 0px 150px;
 }
 
 .photo-title {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: aliceblue;
+    font-size: small;
+}
+
+.photo-title a {
     color: aliceblue;
 }
