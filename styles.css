@@ -4,21 +4,32 @@ html {
 
 body {
     height: 100%;
-    background-color: aqua;
+    background-image: linear-gradient(black, grey, silver);
     margin: 0px;
     
 }
 
 .photo {
+    display: inline-block;
     position: relative;
-    width: 100%;
+    width: 480px;
     height: 100%;
+    
+    /*
     background-image: url('august-phlieger-CREqtqgBFcU-unsplash (2).jpg');
     background-repeat: no-repeat;
     background-size: 600px;
+    */
+    margin: 0px;
+    padding: 0px;
     color: aliceblue;
-    margin: 0px 150px;
 }
+
+/*.photo img {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+} */
 
 .photo-title {
     position: absolute;
@@ -34,6 +45,16 @@ body {
 
 .container1 {
     display: flex;
+    justify-content: center;
     height: 100%;
     width: 100%;
+    /* margin: 0px 150px; */
+    
+}
+
+.form-section {
+    display: flex;
+    height: 100%;
+    width: 600px;
+    background-color: white;
 }
