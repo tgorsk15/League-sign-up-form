@@ -54,7 +54,30 @@ body {
 
 .form-section {
     display: flex;
+    flex-direction: column;
     height: 100%;
     width: 600px;
     background-color: white;
+    padding: 10px;
+}
+
+/* .form-section div {
+    display: flex;
+    gap: 10px;
+} */
+
+.title-section {
+    border: 1px solid black;
+    height: 25vh;
+}
+
+.form {
+    border: 1px solid black;
+    height: 50vh;
+    
+}
+
+.submit-section {
+    border: 1px solid black;
+    height: 25%;
 }
