@@ -55,10 +55,11 @@ body {
 .form-section {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     height: 100%;
     width: 600px;
     background-color: white;
-    padding: 10px;
+    padding: 0 20px;
 }
 
 /* .form-section div {
@@ -68,16 +69,16 @@ body {
 
 .title-section {
     border: 1px solid black;
-    height: 25vh;
+    height: 22vh;
 }
 
 .form {
     border: 1px solid black;
-    height: 50vh;
+    height: 48vh;
     
 }
 
 .submit-section {
     border: 1px solid black;
-    height: 25%;
+    height: 22vh;
 }
