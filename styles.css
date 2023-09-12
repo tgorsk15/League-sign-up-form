@@ -14,12 +14,7 @@ body {
     position: relative;
     width: 480px;
     height: 100%;
-    
-    /*
-    background-image: url('august-phlieger-CREqtqgBFcU-unsplash (2).jpg');
-    background-repeat: no-repeat;
-    background-size: 600px;
-    */
+    border-left: 4px solid tan;
     margin: 0px;
     padding: 0px;
     color: aliceblue;
@@ -48,6 +43,7 @@ body {
     justify-content: center;
     height: 100%;
     width: 100%;
+    
     /* margin: 0px 150px; */
     
 }
@@ -72,7 +68,11 @@ body {
     height: 22vh;
 }
 
-.form {
+.form2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
     border: 1px solid black;
     height: 48vh;
 }
@@ -80,4 +80,15 @@ body {
 .submit-section {
     border: 1px solid black;
     height: 22vh;
+}
+
+input,
+select {
+    display: block;
+    width: 100px;
+}
+
+.name {
+    display: flex;
+    padding: 15px;
 }
