@@ -68,13 +68,18 @@ body {
     height: 22vh;
 }
 
+/* .form {
+    border: 1px solid black;
+    height: 48vh;
+} */
+
 .form2 {
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    padding: 0;
+    height: 40vh;
+    max-width: 600px;
+    padding: 50px 25px;
     border: 1px solid black;
-    height: 48vh;
 }
 
 .submit-section {
@@ -88,7 +93,14 @@ select {
     width: 100px;
 }
 
-.name {
+.left-column {
     display: flex;
-    padding: 15px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
