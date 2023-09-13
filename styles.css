@@ -96,6 +96,14 @@ select {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+select:focus {
+    background-color: rgb(242, 242, 242);
+}
+
+input:focus {
+    background-color: rgb(242, 242, 242);
+}
+
 select {
     height: 30px;
     font-size: medium;
