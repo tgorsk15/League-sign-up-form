@@ -55,7 +55,8 @@ body {
     height: 100%;
     width: 600px;
     background-color: white;
-    padding: 0 20px;
+    padding: 0;
+    padding-left: 7px;
 }
 
 /* .form-section div {
@@ -76,10 +77,11 @@ body {
 .form2 {
     display: flex;
     justify-content: space-between;
-    height: 40vh;
+    height: 30vh;
     max-width: 600px;
-    padding: 50px 25px;
-    border: 1px solid black;
+    padding: 60px 40px;
+    background-color: rgb(252, 245, 236);
+    box-shadow: 1.5px 10px 30px -15px black;
 }
 
 .submit-section {
@@ -90,7 +92,13 @@ body {
 input,
 select {
     display: block;
-    width: 100px;
+    width: 160px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+select {
+    height: 30px;
+    font-size: medium;
 }
 
 .left-column {
