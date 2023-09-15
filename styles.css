@@ -20,12 +20,6 @@ body {
     color: aliceblue;
 }
 
-/*.photo img {
-    margin: 0px;
-    height: 100%;
-    width: 100%;
-} */
-
 .photo-title {
     position: absolute;
     bottom: 10px;
@@ -65,14 +59,22 @@ body {
 } */
 
 .title-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 0px;
+    position: relative;
     border: 1px solid black;
-    height: 22vh;
+    max-width: 600px;
+    height: 26vh;
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: -10px;
 }
 
-/* .form {
-    border: 1px solid black;
-    height: 48vh;
-} */
+.hook {
+    margin-top: 20px;
+}
 
 .form2 {
     display: flex;
@@ -86,7 +88,7 @@ body {
 
 .submit-section {
     border: 1px solid black;
-    height: 22vh;
+    height: 18vh;
 }
 
 input,
