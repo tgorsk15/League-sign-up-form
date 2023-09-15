@@ -92,11 +92,13 @@ body {
 input,
 select {
     display: block;
-    width: 160px;
+    width: 180px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
     border-radius: 1cm;
     padding: 5px;
 }
+
 
 select:focus {
     background-color: rgb(242, 242, 242);
@@ -112,6 +114,20 @@ input:invalid {
 input:valid {
     border: 2px solid rgb(131, 201, 131);
 }
+
+#phone-number:valid {
+    background-color: rgb(177, 252, 252);
+}
+
+/* input:valid + span::before {
+    content: ✓;
+    color: rgb(131, 201, 131);
+}
+
+input:invalid +span::before {
+    content: ✖;
+    color: red;
+} */
 
 select {
     height: 30px;
