@@ -53,27 +53,31 @@ body {
     padding-left: 7px;
 }
 
-/* .form-section div {
-    display: flex;
-    gap: 10px;
-} */
 
 .title-section {
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
     gap: 0px;
     position: relative;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     max-width: 600px;
     height: 26vh;
-    padding-top: 0;
+    padding-top: 20px;
     padding-left: 10px;
     padding-right: -10px;
 }
 
 .hook {
-    margin-top: 20px;
+    position: absolute;
+    top: -30px;
+    left: 40px;
+    font-size: 50px;
+}
+
+.p1,
+.p2 {
+    margin: 0 20px;
 }
 
 .form2 {
@@ -91,11 +95,18 @@ body {
     height: 18vh;
 }
 
+label {
+    @font-face {
+        font-family: ;
+        src: url();
+    }
+}
+
 input,
 select {
     display: block;
     width: 180px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: medium;
     border-radius: 1cm;
     padding: 5px;
