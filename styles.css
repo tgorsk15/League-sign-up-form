@@ -75,6 +75,7 @@ body {
     left: 40px;
     font-family: 'Titillium Web', sans-serif;
     font-size: 50px;
+    text-shadow: rgb(162, 159, 159) 2px 5px 8px;
 }
 
 .p1,
@@ -103,11 +104,6 @@ body {
     padding: 60px 40px;
     background-color: rgb(252, 245, 236);
     box-shadow: 1.5px 10px 30px -15px black;
-}
-
-.submit-section {
-    border: 1px solid black;
-    height: 18vh;
 }
 
 /* @font-face {
@@ -146,9 +142,6 @@ input:valid {
     border: 2px solid rgb(131, 201, 131);
 }
 
-#phone-number:valid {
-    background-color: rgb(177, 252, 252);
-}
 
 /* input:valid + span::before {
     content: ✓;
@@ -176,4 +169,23 @@ select {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.submit-section {
+    border: 1px solid black;
+    height: 18vh;
+    padding-left: 40px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signup {
+padding: 11px 16px;
+width: fit-content;
+}
+
+.button-prompt {
+    font-family: 'Titillium Web', sans-serif;
 }
