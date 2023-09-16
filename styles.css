@@ -66,19 +66,34 @@ body {
     padding-top: 20px;
     padding-left: 10px;
     padding-right: -10px;
+    margin-bottom: 0px;
 }
 
 .hook {
     position: absolute;
     top: -30px;
     left: 40px;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 50px;
 }
 
 .p1,
 .p2 {
-    margin: 0 20px;
+    line-height: 23px;
+    margin: 0px 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
 }
+.p1 {
+    position: absolute;
+    bottom: 64px;
+}
+
+.p2 {
+    position: absolute;
+    bottom: 10px;
+}
+
 
 .form2 {
     display: flex;
@@ -95,11 +110,14 @@ body {
     height: 18vh;
 }
 
+/* @font-face {
+    font-family: 'Oswald';
+    src: url(fonts/static/Oswald-Medium.ttf);
+} */
+
 label {
-    @font-face {
-        font-family: ;
-        src: url();
-    }
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
 }
 
 input,
