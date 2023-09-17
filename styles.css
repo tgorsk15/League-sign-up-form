@@ -4,7 +4,7 @@ html {
 
 body {
     height: 100%;
-    background-image: linear-gradient(black, grey, silver);
+    background-image: linear-gradient(black, rgb(100, 99, 99), rgb(155, 155, 155));
     margin: 0px;
     
 }
@@ -38,7 +38,7 @@ body {
     height: 100%;
     width: 100%;
     
-    /* margin: 0px 150px; */
+ 
     
 }
 
@@ -49,6 +49,7 @@ body {
     height: 100%;
     width: 600px;
     background-color: white;
+    border-right: 4px solid tan;
     padding: 0;
     padding-left: 7px;
 }
@@ -60,7 +61,6 @@ body {
     justify-content: flex-end;
     gap: 0px;
     position: relative;
-    /* border: 1px solid black; */
     max-width: 600px;
     height: 26vh;
     padding-top: 20px;
