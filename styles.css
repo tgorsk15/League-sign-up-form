@@ -172,20 +172,26 @@ select {
 }
 
 .submit-section {
-    border: 1px solid black;
     height: 18vh;
     padding-left: 40px;
     max-width: 600px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .signup {
-padding: 11px 16px;
-width: fit-content;
+    padding: 11px 16px;
+    width: fit-content;
+    background-color:rgb(249, 230, 204);
+    border: solid 2px rgb(249, 230, 204);
+    border-radius: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    font-size: medium;
 }
 
 .button-prompt {
     font-family: 'Titillium Web', sans-serif;
+    margin: 15px 0px;
 }
